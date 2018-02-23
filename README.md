@@ -1,15 +1,15 @@
-## cvx-docker
+# cvx-docker
 
 A [docker](https://www.docker.com/community-edition) image containing `CVXPY` and other `cvxgrp` libraries.
 
-### Pull from DockerHub
+#### Pull from DockerHub
 Pull the image
 
 ```
 docker pull enzobusseti/cvx-base
 ```
 
-### Run
+#### Run
 Then, you can start an interactive session
 ```
 docker run -it cvx-base bash
@@ -24,7 +24,7 @@ The image is based on the
 [jupyter/base-notebook](https://github.com/jupyter/docker-stacks/tree/master/base-notebook) 
 image, so it supports all the launch options documented there.
 
-### Build
+#### Build
 Alternatively, you can build the image. Clone the repo
 
 ```
@@ -37,6 +37,6 @@ build the image
 docker build -t cvx-base .
 ```
 
-### Note
+#### Note
 
 This image is experimental and might change.
