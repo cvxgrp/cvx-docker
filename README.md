@@ -1,6 +1,6 @@
 ## cvx-docker
 
-A docker image containing `CVXPY` and other `cvxgrp` libraries.
+A [docker](https://www.docker.com/community-edition) image containing `CVXPY` and other `cvxgrp` libraries.
 
 To run locally, clone the repo
 
